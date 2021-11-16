@@ -1,4 +1,4 @@
-# DIA 3
+# DIA 1
 
 O objetivo do dia foi ter o primeiro contato com as ferramentas Git e Github, criando uma conta na plataforma, se não já tivesse uma,e posteriormente criando o primeiro repósitorio com os exercícios que sera desenvolvidos ao longo do curso na Trybe.
 
