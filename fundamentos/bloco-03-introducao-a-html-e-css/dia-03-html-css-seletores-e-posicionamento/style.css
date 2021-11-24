@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+}
+
+h1{
+    font-family: Geneva;
+    margin: 20px;
+}
+
+p{
+    font-family: Verdana;
+}
+
+body{
+    background-color: palegreen;
+    color: ;
+    font-size: 25px;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: blue;
+}
+
+p{
+    font-style: italic;
+}
+
+li{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#title {
+    margin: 0px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#header {
+    margin-bottom: 10px;
+    
+    
+}
+
+.header-elements {
+    width: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+    .header-elements p {
+        text-align: left;
+        padding: ;
+        height: 70px;
+    }
+
+       
+
+#referencias {
+    height: 50px;
+    text-align: center;
+    width: 20%;
+    margin-bottom: 10px;
+}
+    #linkedin {
+        float: left;
+        margin: 1%;
+        width: 30%;
+        padding: 0% 1%;
+    }
+
+    #github {
+        float: right;
+        margin: 1%;
+        width: 30%;
+        
+    }
+
+#habilidades {
+    margin-bottom: 30px;
+}
+    #habilidades h3 {
+        margin: 30px 0;
+    }
+
+    #habilidades ul li {
+        margin-left: 40px;
+        line-height: 40px;
+    }
+
+    #habilidades ul li:nth-child(odd) {
+        font-weight: 900;
+    }
