@@ -98,3 +98,20 @@ li{
     #habilidades ul li:nth-child(odd) {
         font-weight: 900;
     }
+
+#index {
+    display: inline-block;
+    margin: 15px;
+}
+
+#index a {
+    margin: 0 15px;
+}
+
+.footer {
+    display: inline-block;
+    width: 90%;
+}
+    .footer p {
+        margin: 15px;
+    }
