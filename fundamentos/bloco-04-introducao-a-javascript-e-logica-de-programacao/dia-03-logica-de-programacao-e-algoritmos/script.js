@@ -34,3 +34,21 @@ for (let index in array) {
 
 console.log(biggerWord);
 console.log(smallWord);
+
+//Exercício 4
+let biggestPrime = 0;
+
+for (let currentNumber = 0; currentNumber <= 50; currentNumber += 1) {
+    isPrime = true;
+    for (let currentDivisor = 2; currentDivisor < currentNumber; currentDivisor += 1) {
+        if (currentNumber % currentDivisor === 0) {
+            isPrime = false;
+        }
+    }
+    if (isPrime) {
+        biggestPrime = currentNumber;
+    }
+}
+
+console.log(biggestPrime);
+
