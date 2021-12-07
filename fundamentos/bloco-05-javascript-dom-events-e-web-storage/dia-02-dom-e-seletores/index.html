@@ -69,9 +69,21 @@
         body.appendChild(main);
 
         //Exercício 3
-        let section = document.createElement('section');
-        section.className = 'center-content';
-        main.appendChild(section);
+        let sectionCenter = document.createElement('section');
+        sectionCenter.className = 'center-content';
+        main.appendChild(sectionCenter);
+
+        //Exercício 4
+        let p = document.createElement('p');
+        p.innerText = 'Algum texto';
+        sectionCenter.appendChild(p);
+
+        //Exercício 5
+        let sectionLeft = document.createElement('section');
+        sectionLeft.className = 'left-content';
+        main.appendChild(sectionLeft);
+
+        //Exercício 6
 
 
     </script>
