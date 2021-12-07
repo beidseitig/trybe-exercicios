@@ -13,3 +13,24 @@ let word = 'tryber';
 let inverseWord = word.split('').reverse().join('');
 
 console.log('Exercício 2: ' + inverseWord);
+
+//Exercício 3
+let array = ['java', 'javascript', 'python', 'html', 'css'];
+
+let biggerWord = array[0];
+let smallWord = array[0];
+
+for (let index in array) {
+    if (biggerWord.length < array[index].length) {
+        biggerWord = array[index]
+    }
+}
+
+for (let index in array) {
+    if (smallWord.length > array[index].length) {
+        smallWord = array[index]
+    }
+}
+
+console.log(biggerWord);
+console.log(smallWord);
