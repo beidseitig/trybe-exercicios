@@ -57,10 +57,70 @@
   </head>
   <body>
     <script>
+        //Exercício 1
         let h1 = document.createElement('h1');
         h1.innerText = 'Exercício 5.2 - JavaScript DOM';
         let body = document.body;
         body.appendChild(h1);
+
+        //Exercício 2
+        let main = document.createElement('main');
+        main.className = 'main-content';
+        body.appendChild(main);
+
+        //Exercício 3
+        let sectionCenter = document.createElement('section');
+        sectionCenter.className = 'center-content';
+        main.appendChild(sectionCenter);
+
+        //Exercício 4
+        let p = document.createElement('p');
+        p.innerText = 'Algum texto';
+        sectionCenter.appendChild(p);
+
+        //Exercício 5
+        let sectionLeft = document.createElement('section');
+        sectionLeft.className = 'left-content';
+        main.appendChild(sectionLeft);
+
+        //Exercício 6
+        let sectionRight = document.createElement('section');
+        sectionRight.className = 'right-content';
+        main.appendChild(sectionRight);
+
+        //Exercício 7
+        let image = document.createElement('img');
+        image.src = "https://picsum.photos/200";
+        image.className = 'small-image';
+        sectionLeft.appendChild(image);
+
+        //Exercício 8
+        let list = document.createElement('ul');
+        sectionRight.appendChild(list);
+
+        let listItems = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+
+        for (let index = 0; index < listItems.length; index += 1) {
+          let items = listItems[index];
+
+          let listNumbers = document.createElement('li');
+          listNumbers.innerText = items;
+
+          list.appendChild(listNumbers);
+        }
+
+        //Exercício 9
+        function appendChild() {
+          let child = document.createElement('h3');
+          child.className = 'h3';
+          main.appendChild(child);
+        }
+
+        appendChild();
+        appendChild();
+        appendChild();
+        
+
 
     </script>
   </body>
