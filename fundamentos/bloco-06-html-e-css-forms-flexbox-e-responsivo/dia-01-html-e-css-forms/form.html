@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>Cadastro de Currículo</h1>
+    </header>
+        <main>
+            <form action="" method="get"></form>
+                <section>
+                    <fieldset id="personal-data">
+                        <legend>Dados Pessoais:</legend>
+                        <label for="name">Nome:
+                            <input type="text" name="name" maxlength="40" id="name" required>
+                        </label>
+                        <br>
+                        <label for="email">Email:
+                            <input type="text" name="email" id="email" maxlength="50" required>
+                        </label>
+                        <br>
+                        <label for="cpf">CPF:
+                            <input type="text" name="cpf" id="cpf" maxlength="11" required>
+                        </label>
+                        <br>
+                        <label for="address">Endereço:
+                            <input type="text" name="address" id="address" maxlength="200" required>
+                        </label>
+                        <br>
+                        <label for="city">Cidade:
+                            <input type="text" name="city" id="city" maxlength="28" required>
+                        </label>
+                        <br>
+                        <label for="states-list">Estado:
+                            <select name="states" id="states-list">
+                            </select>
+                        </label>
+                        <br>
+                        <label for="house">Tipo de residência:
+                            <input type="radio" name="house-type" id="house" checked>Casa
+                        </label>
+                        <label for="apart">
+                            <input type="radio" name="house-type" id="apart">Apartamento
+                        </label>
+                    </fieldset>
+
+                    <fieldset id="last-job">
+                        <legend>Dados do último emprego:</legend>
+                        <label for="resume">Resumo do currículo:
+                            <textarea name="resume" id="resume" cols="70" rows="10" maxlength="1000" required></textarea>
+                        </label>
+                        <br>
+                        <label for="position">Cargo:
+                            <input type="text" name="position" id="position" maxlength="40" required>
+                        </label>
+                        <br>
+                        <label for="position-description">Descrição do cargo:
+                            <input type="text" name="position-descripition" id="position-description" maxlength="500" required>
+                        </label>
+                        <br>
+                        <label for="date">Data de inicío:
+                            <input type="text" name="date" id="date">
+                        </label>
+                    </fieldset>
+                </section>
+            <button type="submit" id="submit-button">Enviar</button>
+            <button type="button" id='clear-button'>Limpar</button>
+            </form>
+        </main>
+    <script src="script.js"></script>
+</body>
+</html>
